@@ -37,3 +37,6 @@ func (n *Node) Run() {
   wire.Listen(n)
 }
 
+func (n *Node) Stop() {}
+
+

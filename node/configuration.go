@@ -6,7 +6,7 @@ import (
 )
 
 type NodeConfiguration struct {
-  SelfAddress string
+  SelfAddress identity.Identity
   Nodes []identity.Identity
   Out wire.WriteWire
 }
